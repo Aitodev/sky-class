@@ -1557,6 +1557,9 @@ ul#cat_nav li a span {
     ..buttons__flex p a{
         margin-right: 15px;
     }
+    .btn__mobile{
+        width: 123px;
+    }
 }
 
 
@@ -7803,7 +7806,7 @@ only screen and (min-device-pixel-ratio:2) and (max-width:991px) {
 		font-size: 14px
 	}
 	.parallax-content-1 div h3 {
-		font-size: 36px
+		font-size: 22px
 	}
 	.step {
 		padding: 20px 31px 20px 31px
