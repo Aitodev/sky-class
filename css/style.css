@@ -1211,6 +1211,9 @@ a.dropdown-toggle.icon-search {
 		color: #555!important;
 		font-size: 16px
 	}
+    .header-video{
+        height: 490px !important;
+    }
 }
 
 .feature_home {
@@ -6799,7 +6802,8 @@ a.social_bt.linkedin:before {
 	}
 	.slide-text h2,
 	.slide-text h3 {
-		font-size: 36px
+		font-size: 24px;
+        padding-top: 25px;
 	}
 	a.box_news figure img {
 		width: 100%;
@@ -7133,6 +7137,9 @@ a.box_news ul li:after {
 	#search_2 .nav-tabs>li>a:before {
 		display: none
 	}
+    .contactblock{
+        margin-top: 42%;
+    }
 }
 
 #search_2 .nav-tabs {
@@ -7660,11 +7667,11 @@ only screen and (min-device-pixel-ratio:2) and (max-width:991px) {
 	}
 	header#plain #logo_home h1 a,
 	header.sticky #logo_home h1 a {
-		background-image: url(http://www.ansonika.com/citytours/img/logo_sticky_2x.png);
+		background-image: url(../img/logo/logo_sk2.svg);
 		background-size: auto 30px
 	}
 	header.sticky#colored #logo_home h1 a {
-		background-image: url(http://www.ansonika.com/citytours/img/logo_sticky_colored_2x.png);
+		background-image: url(../img/logo/logo_sk2.svg);
 		background-size: auto 30px
 	}
 }
