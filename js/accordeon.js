@@ -6,6 +6,8 @@ const card5 = document.querySelector("#active5");
 const card6 = document.querySelector("#active6");
 const card7 = document.querySelector("#active7");
 const card8 = document.querySelector("#active8");
+const card9 = document.querySelector("#active9");
+
 
 
 const text1 = document.querySelector("#text1");
@@ -16,6 +18,8 @@ const text5 = document.querySelector("#text5");
 const text6 = document.querySelector("#text6");
 const text7 = document.querySelector("#text7");
 const text8 = document.querySelector("#text8");
+
+const text9 = document.querySelector("#text9");
 
 
 
@@ -70,3 +74,10 @@ function nightTxt() {
 }
 
 card8.addEventListener('click', nightTxt);
+
+
+function nineTxt() {
+	text9.classList.toggle("display-block");
+}
+
+card9.addEventListener('click', nineTxt);
